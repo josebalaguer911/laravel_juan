@@ -51,7 +51,7 @@ echo "Nombre de articulo: " . $articulo->Nombre_Articulo .
 }*/
 
 $articulos=Articulo::where("seccion","ceramica")->get();
-return $articulos . "<br>" ;
+return $articulos ;
 
 
 
